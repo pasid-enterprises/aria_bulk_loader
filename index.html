@@ -1300,7 +1300,7 @@ async function startRun() {
   const onFail   = document.getElementById('cfgOnFail').value;
   const batch    = parseInt(document.getElementById('cfgBatch').value)||10;
   const delay    = parseInt(document.getElementById('cfgDelay').value)||0;
-  const retries  = parseInt(document.getElementById('cfgRetries').value)||3;
+  const retries  = parseInt(document.getElementById('cfgRetries').value)||0;
   const timeout  = parseInt(document.getElementById('cfgTimeout').value)||30000;
   const concurr  = parseInt(document.getElementById('cfgConcurrency').value)||3;
   const idCols   = getSelectedIds();
