@@ -594,7 +594,7 @@ select option { background: var(--surface); }
           </div>
           <div class="field" style="justify-content:flex-end;">
             <label style="visibility:hidden">_</label>
-            <label style="display:flex;align-items:center;gap:7px;cursor:pointer;text-transform:none;font-weight:500;font-size:12px;letter-spacing:0;">
+            <label style="display:flex;align-items:center;gap:7px;cursor:pointer;text-transform:none;font-weight:500;font-size:12px;letter-spacing:0;position: relative;">
               <input type="checkbox" id="cfgDry" style="width:auto;accent-color:var(--blue);">
               Dry run mode
             </label>
@@ -612,10 +612,11 @@ select option { background: var(--surface); }
                      font-style: italic; 
                      font-weight: bold;
                      line-height: 0;
-                     margin-left: 4px;
+                     margin-left: 4px; 
+                     transform: translateY(-6px); 
                      cursor: pointer;
                      position: absolute;
-                     right: -25px;
+                     right: -18px;
                      top: -2px;
                      user-select: none;">i</span>
           </div>
